@@ -32,8 +32,9 @@ Using **streamlit** to create an user interface for project demo.
 
 ## Methodology
 
-Inline-style: 
-![alt text]( "Project Flow Chart")
+Project Flow Chart
+
+![alt text](https://github.com/bluebird1337/Word-Sense-Disambiguation/blob/main/Word_Sense_Disambiguation_flow_chart.png "Project Flow Chart")
 
 
 As shown in the flow chart, first we conduct the pre-process to the dissertation corpus, this step includes capitalization, punctuation, stop words and part-of-speech restoration, etc.
