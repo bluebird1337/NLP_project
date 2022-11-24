@@ -21,9 +21,11 @@ The input of this model is a sentence containing search keywords, and output syn
 Finally, use the Semcor corpus to test the model's accuracy, and create a website for the demo.
 
 > WSD_Model.ipynb
+
 Including data pre-processing, searching for alternative word candidates, designing weighting methods, similarity calculation.
 
 > WSD_demo.py
+
 Using streamlit to create an user interface for project demo
 
 ## Methodology
