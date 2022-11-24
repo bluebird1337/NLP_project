@@ -47,7 +47,7 @@ After finding the closest alternative word, compare it with the original target 
 
 Model accuracy
 
-![alt text](https://github.com/bluebird1337/Word-Sense-Disambiguation/blob/main/Word_Sense_Disambiguation_flow_chart.png "Model accuracy")
+![alt text](https://github.com/bluebird1337/Word-Sense-Disambiguation/blob/main/result.png "Model accuracy")
 
 The overall accuracy rate was 70%, with a standard deviation of 0.25.
 
