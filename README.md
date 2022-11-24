@@ -49,13 +49,23 @@ Model accuracy
 
 ![alt text](https://github.com/bluebird1337/Word-Sense-Disambiguation/blob/main/result.png "Model accuracy")
 
-The overall accuracy rate was 70%, with a standard deviation of 0.25.
+The overall accuracy rate was **70%**, with a standard deviation of **0.25**.
 
 The prediction accuracy rate using the above method is highly related to the popularity of the word. It can be seen that interest with the highest accuracy rate appears 382 times in more than 37,000 sentences in corpus. The more popular and commonly used words are easier to correctly distinguish their meanings.
 
 ## Conclusion
-This project is a downstream task using the BERT-pretrain model to analyze the meaning of specific AKL academic words.
+This project is a downstream task using the **BERT-pretrain** model to analyze the meaning of specific AKL academic words.
 
-The implementation method includes: data pre-processing, searching for alternative word candidates, designing weighting methods, similarity calculation, web demo, etc.
+The implementation method includes: 
+
+1. data pre-processing
+
+2. searching for alternative word candidates
+
+3. designing weighting methods
+
+4. similarity calculation
+
+5. web demo
 
 In the future, the word meaning disambiguation function designed by this research can be extended to distinguish the meaning of academic papers.
