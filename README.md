@@ -11,14 +11,14 @@
 </p>
 
 ## Abstract
-Employed BERT and NLTK to classify the exact meanings of 15 commonly used academic keywords from the Semcor corpus.
+Employed **BERT** and **NLTK** to classify the exact meanings of 15 commonly used academic keywords from the **Semcor** corpus.
 
 ## Introduction
-In practice, extended the Bert-Chinese pre-train model to process the dissertation data obtained by web crawler. 
+In practice, extended the **Bert-Chinese** pre-train model to process the dissertation data obtained by web crawler. 
 
 The input of this model is a sentence containing search keywords, and output synonyms, word senses, usage examples and confidence levels, which is cross-validated using Wordnet. 
 
-Finally, use the Semcor corpus to test the model's accuracy, and create a website for the demo.
+Finally, use the **Semcor** corpus to test the model's accuracy, and create a website for the demo.
 
 ## Contents
 
@@ -28,12 +28,17 @@ Including data pre-processing, searching for alternative word candidates, design
 
 > WSD_demo.py
 
-Using streamlit to create an user interface for project demo.
+Using **streamlit** to create an user interface for project demo.
 
 ## Methodology
+
+Inline-style: 
+![alt text]( "Project Flow Chart")
+
+
 As shown in the flow chart, first we conduct the pre-process to the dissertation corpus, this step includes capitalization, punctuation, stop words and part-of-speech restoration, etc.
 
-In the next stage, we use the Wordnet weighting method and BERT-Chinese pre-train model to calculate the closest alternative word in semantic meaning.
+In the next stage, we use the Wordnet weighting method and **BERT-Chinese** pre-train model to calculate the closest alternative word in semantic meaning.
 
 After finding the closest alternative word, compare it with the original target word, select the closest meaning between the two and output it as the classification result.
 
