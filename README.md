@@ -44,7 +44,12 @@ In the next stage, we use the Wordnet weighting method and **BERT-Chinese** pre-
 After finding the closest alternative word, compare it with the original target word, select the closest meaning between the two and output it as the classification result.
 
 ## Result
-The final prediction accuracy rate was 70%, with a standard deviation of 0.25.
+
+Model accuracy
+
+![alt text](https://github.com/bluebird1337/Word-Sense-Disambiguation/blob/main/Word_Sense_Disambiguation_flow_chart.png "Model accuracy")
+
+The overall accuracy rate was 70%, with a standard deviation of 0.25.
 
 The prediction accuracy rate using the above method is highly related to the popularity of the word. It can be seen that interest with the highest accuracy rate appears 382 times in more than 37,000 sentences in corpus. The more popular and commonly used words are easier to correctly distinguish their meanings.
 
